@@ -17,5 +17,6 @@ function writeCards(w,z){
   for(let i=0; i<w.length;i++){
     console.log('Thank you, '+w[i]+', for the wonderful '+z+' gift!')
   }
+  return w;
 }
 writeCards(t,s);
