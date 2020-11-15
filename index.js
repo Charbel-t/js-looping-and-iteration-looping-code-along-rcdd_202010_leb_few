@@ -3,7 +3,7 @@
 function countDown(x){
   let i=x; 
   while(i>0){
-    console.log(x++);
+    console.log(i);
     i--;
   }
 }
